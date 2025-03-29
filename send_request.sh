@@ -1,6 +1,7 @@
 #!/bin/bash
 
 INVOKE_URL=$(terraform output -raw invoke_url)
+#INVOKE_URL=https://if3xa6kj4f.execute-api.us-east-1.amazonaws.com
 
 # add movies
 echo "> add movies"
